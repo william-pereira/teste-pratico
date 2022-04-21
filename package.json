@@ -1,0 +1,28 @@
+{
+  "name": "teste-pratico",
+  "version": "1.0.0",
+  "description": "Testes do processo seletivo para a Nilo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy_open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-pereira/teste-pratico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/william-pereira/teste-pratico/issues"
+  },
+  "homepage": "https://github.com/william-pereira/teste-pratico#readme",
+  "devDependencies": {
+    "cypress": "^9.5.4",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
