@@ -13,6 +13,7 @@ Automação de testes com cypress + Arquitetura Page Objects
 npm init -y
 npm install cypress --save-dev
 npm install -D cypress-xpath
+npm install cypress-cucumber-preprocessor
 ```
 
 ### Após todas as instalações rode o comando
