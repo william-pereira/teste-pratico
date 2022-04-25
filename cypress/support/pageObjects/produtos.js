@@ -1,7 +1,6 @@
 /// <reference types="Cypress" />
 
 import ProdutosElements from '../elements/produtosElements'
-require("cypress-xpath");
 const produtosElements = new ProdutosElements
 const url = Cypress.config("baseUrl")
 
