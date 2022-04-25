@@ -1,4 +1,5 @@
 # teste-pratico
+
 Testes do processo seletivo para a Nilo
 
 # cypress-automacao
@@ -7,13 +8,15 @@ Automação de testes com cypress + Arquitetura Page Objects
 
 # Instalação
 
-## Utilize os comandos abaixo para instalar o cypress corretamente
+### Utilize os comandos abaixo para utilizar o projeto corretamente
+
+</br>
+Faça o clone do projeto via HTTPS:
+
+https://github.com/william-pereira/teste-pratico.git
 
 ```
-npm init -y
-npm install cypress --save-dev
-npm install -D cypress-xpath
-npm install cypress-cucumber-preprocessor
+npm install
 ```
 
 ### Após todas as instalações rode o comando
