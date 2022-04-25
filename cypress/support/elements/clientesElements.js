@@ -1,3 +1,7 @@
+const { faker } = require('@faker-js/faker')
+// faker.internet.email(fisrtName?: String, provider?: String = {})
+const randomEmail = faker.internet.email();
+
 class ClientesElements {
     minhaConta = () => {return '//*[@id="menu-item-50"]/a'}
     email = () => { return '//*[@name="email"]'}
@@ -6,7 +10,7 @@ class ClientesElements {
     detalhesConta = () => {return '//*[@id="page-36"]/div/div[1]/nav/ul/li[5]/a'}
     salvarDetalhes = () => {return '//*[@name="save_account_details"]'}
 
-    dadoEmail = 'williamnilo4@yopmail.com'
+    dadoEmail = randomEmail
     dadoSenha = 'Will@23032233'
     dadoNome = 'William'
     dadoSobrenome = 'Pereira'

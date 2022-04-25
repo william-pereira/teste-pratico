@@ -1,3 +1,5 @@
 {
-    "baseUrl": "http://practice.automationtesting.in/"
+    "baseUrl": "http://practice.automationtesting.in/",
+    "viewportWidth": 1000,
+    "viewportHeight": 660
 }
