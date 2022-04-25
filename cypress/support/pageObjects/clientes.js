@@ -15,6 +15,7 @@ const produtosElements = new ProdutosElements
             cy.xpath(clientesElements.minhaConta()).click()
             cy.xpath(clientesElements.email()).type(clientesElements.dadoEmail)
             cy.xpath(clientesElements.senha()).type(clientesElements.dadoSenha)
+            cy.wait(2000)
             cy.xpath(clientesElements.botaoRegister()).click({force: true})
 
         }
